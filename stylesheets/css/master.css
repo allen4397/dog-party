@@ -1,0 +1,14 @@
+nav {
+  background-color: #afeeee;
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+a {
+  padding-left: 10px;
+}
+.home-button {
+  height: 20px;
+  float: left;
+  padding-left: 15px;
+}
