@@ -11,7 +11,7 @@ body {
 }
 img {
   border-radius: 50%;
-  border: 2px solid #1E90FF;
+  border: 2px solid steelblue;
   height: 200px;
   width: 200px;
 }
@@ -26,8 +26,12 @@ section {
   background-size: cover;
 }
 table {
-  display: block;
-  width: 100%;
+  display: grid;
+  vertical-align: middle;
+}
+footer {
+  background-color: steelblue;
+  color: white;
 }
 .dog {
   display: table-cell;
@@ -50,13 +54,23 @@ h2 {
 figcaption {
   padding: 30px;
 }
+#bottom-link {
+  padding: 10px;
+  text-decoration: underline;
+}
+.icon {
+  border-radius: 0%;
+  height: 50px;
+  width: 50px;
+  padding: 20px;
+}
 .button {
   display: inline-block;
   margin: 20px;
   margin-bottom: 40px;
   background-color: white;
-  color: #1E90FF;
-  border: 2px solid #1E90FF;
+  color: steelblue;
+  border: 2px solid steelblue;
   padding: 10px;
   padding-bottom: 5px;
   padding-top: 5px;
