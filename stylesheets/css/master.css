@@ -1,14 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: sans-serif;
+  margin: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+img {
+  border-radius: 50%;
+  border: 2px solid #1E90FF;
+  height: 200px;
+  width: 200px;
+}
 nav {
   background-color: #afeeee;
   text-align: right;
   padding: 10px;
   color: white;
 }
+section {
+  background-image:url('/Users/timothyallen/turing/2module/projects/dog-party/images/park.jpg');
+  background-size: cover;
+}
+table {
+  display: block;
+  width: 100%;
+}
+.dog {
+  display: table-cell;
+  padding: 20px;
+  width: 33%;
+  padding-left: 55px;
+}
 a {
   padding-left: 10px;
 }
-.home-button {
+h1 {
+  font-weight: normal;
+  padding: 30px;
+}
+h2 {
+  padding: 20px;
+  font-weight: normal;
+  font-size: larger;
+}
+figcaption {
+  padding: 30px;
+}
+.button {
+  display: inline-block;
+  margin: 20px;
+  margin-bottom: 40px;
+  background-color: white;
+  color: #1E90FF;
+  border: 2px solid #1E90FF;
+  padding: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+#home-button {
   height: 20px;
   float: left;
-  padding-left: 15px;
+  border: 0;
+
+}
+#main {
+  height: 300px;
+  width: 300px;
 }
